@@ -1,0 +1,4 @@
+matplotlib
+pandas
+seaborn
+Flask==3.0.3
