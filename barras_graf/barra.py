@@ -20,7 +20,7 @@ population_2019.set_index('Country Code',inplace=True)
 
 #Matplotlib
 #con plt. le decimos que tipo de grafico sera
-#plt.bar(population_2019.index,'2019',data=population_2019)
+plt.bar(population_2019.index,'2019',data=population_2019)
 
 
 #Pandas
