@@ -13,7 +13,7 @@ population_2019=population_2019.loc[
                     ]
 population_2019.set_index('Country Code',inplace=True)
 
-
+#print(pd.__version__)
 
 #print(population_2019)
 
