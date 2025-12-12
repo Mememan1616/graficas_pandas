@@ -1,0 +1,126 @@
+{
+"description":"Ticket de compra importante y prioritario",
+  "status":2,
+  "priority":1,
+  "subject":"Ticket de compra",
+  "email":"alex@gmail.com",
+    
+"custom_fields":{
+  "clula": "Operaciones",
+  "subtipo": "Pregunta",
+  "tipo_abc": "Alta",
+  "id_del_cliente": "C12345",
+  "lf_agente_fase_1": 18,
+  "lf_agente_fase_2": 16,
+  "lf_agente_fase_3": 20,
+  "asunto_sos": "Actualización y/o generación buro de crédito"
+}
+
+
+}
+
+
+"ticket": {
+        "subject": "Ticket de compra",
+        "group_id": null,
+        "department_id": null,
+        "category": null,
+        "sub_category": null,
+        "item_category": null,
+        "requester_id": 24003921841,
+        "responder_id": null,
+        "due_by": "2025-11-26T22:00:00Z",
+        "fr_escalated": false,
+        "spam": false,
+        "email_config_id": null,
+        "fwd_emails": [],
+        "reply_cc_emails": [],
+        "cc_emails": [],
+        "is_escalated": false,
+        "fr_due_by": "2025-11-26T14:15:00Z",
+        "id": 167496,
+        "priority": 1,
+        "status": 2,
+        "source": 3,
+        "created_at": "2025-11-25T23:11:33Z",
+        "updated_at": "2025-11-25T23:11:33Z",
+        "workspace_id": 2,
+        "requested_for_id": 24003921841,
+        "to_emails": null,
+        "type": "Incident",
+        "description": "<div>Ticket de compra importante y prioritario</div>",
+        "description_text": "Ticket de compra importante y prioritario",
+        "custom_fields": {
+            "clula": "Operaciones",
+            "requerimiento": null,
+            "sistema": null,
+            "subtipo": "Pregunta",
+            "tipo_abc": "Alta",
+            "id_del_cliente": "C12345",
+            "sucursal": null,
+            "ticket_padre": null,
+            "ticket_hijo": null,
+            "caso_dynamics": null,
+            "respuesta_dynamics": null,
+            "lf_agente_fase_1": 2,
+            "lf_agente_fase_2": 1,
+            "lf_agente_fase_3": 1,
+            "asunto_sos": "Actualización y/o generación buro de crédito"
+        },
+        "tags": [],
+        "tasks_dependency_type": 0,
+        "resolution_notes": null,
+        "resolution_notes_html": null,
+        "attachments": []
+}
+
+{
+ "description":"Ticket de compra importante y prioritario",
+  "status":2,
+  "priority":1,
+  "subject":"Ticket de compra",
+  "email":"alex@gmail.com"
+}
+
+        {
+            "field": "description",
+            "message": "No deberia ser un mensaje en blanco",
+            "code": "invalid_value"
+        },
+        {
+            "field": "status",
+            "message": "Deberia ser uno de estos valores: '2,3,4,5,6,7,8,9,10,11,13'",
+            "code": "invalid_value"
+        },
+        {
+            "field": "subject",
+            "message": "No puede ser un mensaje en blanco",
+            "code": "datatype_mismatch"
+        },
+        {
+            "field": "priority",
+            "message": "Deberia ser uno de los siguientes valores: '1,2,3,4'",
+            "code": "invalid_value"
+        },
+        {
+            "field": "email",
+            "message": "uno de los siguientes campos debe ser obligatorio: requester_id, phone, email",
+            "code": "missing_field"
+        }
+    "custom_fields": {
+            "clula": "Operaciones",
+            "requerimiento": null,
+            "sistema": null,
+            "subtipo": "Pregunta",
+            "tipo_abc": "Alta",
+            "id_del_cliente": "C12345",
+            "sucursal": null,
+            "ticket_padre": null,
+            "ticket_hijo": null,
+            "caso_dynamics": null,
+            "respuesta_dynamics": null,
+            "lf_agente_fase_1": 1,
+            "lf_agente_fase_2": 2,
+            "lf_agente_fase_3": 3,
+            "asunto_sos": "Actualización y/o generación buro de crédito"
+        },
